@@ -7,7 +7,7 @@ from .models import Flight, Booking
 class FlightSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = Flight
-		fields = ['destination', 'time', 'price', 'id']
+		fields = ['destination', 'time', 'price', 'id' ,'miles']
 
 
 class BookingSerializer(serializers.ModelSerializer):
